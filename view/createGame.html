@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProfitLogic Trader: Buy, Sell, Prosper</title>
+    <link rel="stylesheet" href="stylescreategame.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Create New Game</h1>
+        <form id="createGameForm">
+            <div class="form-group">
+                <label for="gameName">Game Name:</label>
+                <input type="text" id="gameName" name="gameName" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+            </div>
+            <button type="submit" id="createGameBtn">Create Game</button>
+        </form>
+    </div>
+
+    <script src="./js/createGame.js"></script>
+</body>
+</html>

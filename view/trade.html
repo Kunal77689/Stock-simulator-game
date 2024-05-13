@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProfitLogic Trader: Buy, Sell, Prosper</title>
+    <link rel="stylesheet" href="stylestrades.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="game-name" id="gamename">Game Name</div>
+        <div class="user-profile">
+            <span id="loggedInUser">User Profile</span>
+            <button id="chooseGameBtn">Choose Game</button>
+            <div class="market-status">Market Status: <span id="marketStatus">Closed</span></div>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <div class="nav-item" id="portfolio">Portfolio</div>
+        <div class="nav-item" id="trades">Trade</div>
+    </div>
+
+    <div class="content">
+        <div class="trades-form">
+            <h2>Trades</h2>
+            <div class="form-group">
+                <label for="stockSymbol">Stock Symbol:</label>
+                <input type="text" id="stockSymbol" name="stockSymbol">
+            </div>
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1">
+            </div>
+            <div class="form-actions">
+                <button id="buyBtn">Buy</button>
+                <button id="sellBtn">Sell</button>
+                <button id="quoteBtn">Get Quote</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/trade.js"></script>
+</body>
+</html>

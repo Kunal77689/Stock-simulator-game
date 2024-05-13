@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProfitLogic Trader: Buy, Sell, Prosper</title>
+    <link rel="stylesheet" href="stylesgames.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="game-title">ProfitLogic Trader: Buy, Sell, Prosper</h1>
+        <div class="dropdowns-container">
+            <select class="select-dropdown" id="registeredGamesDropdown">
+                <option value="">List of registered games</option>
+            </select>
+            <select class="select-dropdown" id="allGamesDropdown">
+                <option value="all">All</option>
+            </select>
+        </div>
+
+        <div class="actions-container">
+            <button id="openGameBtn">Open game</button>
+            <button id="registerNewGameBtn">Register in a new game</button>
+            <button id="createNewGameBtn">Create a new game</button>
+        </div>
+    </div>
+
+    <script src="./js/games.js"></script>
+</body>
+</html>

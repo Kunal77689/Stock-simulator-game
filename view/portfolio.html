@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProfitLogic Trader: Buy, Sell, Prosper</title>
+    <link rel="stylesheet" href="stylesportfolio.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="game-name" id="gamename">Game Name</div>
+        <div class="user-profile">
+            <span id="loggedInUser">User Profile</span>
+            <button id="chooseGameBtn">Choose Game</button>
+            <div class="market-status">Market Status: <span id="marketStatus">Closed</span></div>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <div class="nav-item" id="portfolio">Portfolio</div>
+        <div class="nav-item" id="trade">Trade</div>
+    </div>
+
+    <div class="overview-box">
+        <h2>Overview</h2>
+        <div class="overview-content">
+            <div class="overview-item">
+                <h3>Cash</h3>
+                <span id="cashValue">0</span>
+            </div>
+            <div class="overview-item">
+                <h3>Stocks</h3>
+                <span id="stocksValue">0</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/portfolio.js"></script>
+</body>
+</html>

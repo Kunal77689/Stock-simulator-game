@@ -1,0 +1,36 @@
+{
+  "name": "project-kunal77689",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CS3100W24/project-Kunal77689.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CS3100W24/project-Kunal77689/issues"
+  },
+  "homepage": "https://github.com/CS3100W24/project-Kunal77689#readme",
+  "dependencies": {
+    "assert": "^2.1.0",
+    "axios": "^1.6.7",
+    "express": "^4.18.3",
+    "express-session": "^1.18.0",
+    "finnhub": "^1.2.18",
+    "mocha": "^10.3.0",
+    "mongodb": "^6.5.0",
+    "path": "^0.12.7",
+    "supertest": "^6.3.4",
+    "url": "^0.11.3",
+    "validator": "^13.11.0"
+  }
+}
